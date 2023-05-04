@@ -15,6 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito+Sans:wght@400;700;800&family=Open+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <nav class="container">
@@ -67,13 +68,13 @@
       <section class="services">
         <h2>The Service We Provide For You</h2>
         <ul class="services_list">
-          <li>
+          <li data-aos="flip-left">
             <img src="./assets/icons/icon1.png" alt="icon1" />
             <h3>Development</h3>
             <p>Create a platform with the best and coolest quality from us.</p>
           </li>
 
-          <li>
+          <li data-aos="flip-up">
             <img src="./assets/icons/icon2.png" alt="icon2" />
             <h3>UI/UX Designer</h3>
             <p>
@@ -82,19 +83,19 @@
             </p>
           </li>
 
-          <li>
+          <li data-aos="flip-right">
             <img src="./assets/icons/icon3.png" alt="icon3" />
             <h3>Graphic Designer</h3>
             <p>We provide Graphic Design services, with the best designers</p>
           </li>
 
-          <li>
+          <li data-aos="flip-left">
             <img src="./assets/icons/icon4.png" alt="icon4" />
             <h3>Motion Graphic</h3>
             <p>Create a platform with the best and coolest quality from us.</p>
           </li>
 
-          <li>
+          <li data-aos="flip-up">
             <img src="./assets/icons/icon5.png" alt="icon5" />
             <h3>Photography</h3>
             <p>
@@ -103,7 +104,7 @@
             </p>
           </li>
 
-          <li>
+          <li data-aos="flip-right">
             <img src="./assets/icons/icon6.png" alt="icon6" />
             <h3>Videography</h3>
             <p>Create a platform with the best and coolest quality from us.</p>
@@ -146,4 +147,10 @@
       </div>
     </footer>
   </body>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
 </html>
