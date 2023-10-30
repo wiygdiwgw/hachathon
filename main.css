@@ -76,6 +76,11 @@ nav {
   padding-top: 32px;
 }
 
+.hero_bg {
+  width: 500px;
+  height: 800px;
+}
+
 .hero_content {
   display: flex;
   flex-direction: column;
